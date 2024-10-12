@@ -24,6 +24,7 @@
 	max-width: 661px;
 	text-align: center;
 	font-weight: 500;
+	padding-bottom: 70px;
 }
 
 @media (max-width: 480px) {
@@ -35,5 +36,10 @@
 	.history__image {
 		padding-bottom: 33px;
 		height: 479px;
+	}
+
+	.history__paragraph {
+		font-size: 14px;
+		padding-bottom: 79px;
 	}
 }
