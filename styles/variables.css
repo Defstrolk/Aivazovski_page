@@ -1,3 +1,7 @@
 :root {
 	--bg-main: lightblue;
+
+	--color-dark: #070707;
+	--color-gray: #828282;
+	--bg-gray: #f6f6f6;
 }
