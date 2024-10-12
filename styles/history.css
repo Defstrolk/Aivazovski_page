@@ -1,0 +1,39 @@
+.history {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--color-dark);
+}
+.history__title {
+	padding-top: 64px;
+	text-align: center;
+	font-size: 34px;
+	font-weight: 700;
+	margin-bottom: 70px;
+}
+.history__image {
+	padding-bottom: 30px;
+	width: 100%;
+	max-width: 950px;
+	height: 655px;
+	object-fit: cover;
+}
+
+.history__paragraph {
+	max-width: 661px;
+	text-align: center;
+	font-weight: 500;
+}
+
+@media (max-width: 480px) {
+	.history__title {
+		padding-top: 50px;
+		margin-bottom: 59px;
+	}
+
+	.history__image {
+		padding-bottom: 33px;
+		height: 479px;
+	}
+}
