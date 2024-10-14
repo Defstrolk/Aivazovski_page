@@ -67,6 +67,7 @@
 		fill: black;
 		width: 55px;
 		height: 54.98px;
+		transition-duration: 0.2ms;
 	}
 
 	.social-media {
@@ -87,5 +88,26 @@
 
 	.footer__button {
 		font-size: 24px;
+	}
+}
+
+@media (hover: hover) {
+	.social-icon:hover {
+		fill: lightcoral;
+	}
+}
+@media (hover: none) {
+	.social-icon:active {
+		fill: lightcoral;
+	}
+}
+@media (hover: hover) {
+	.footer__button:hover {
+		opacity: 0.7;
+	}
+}
+@media (hover: none) {
+	.footer__button:active {
+		opacity: 0.7;
 	}
 }

@@ -13,6 +13,50 @@
 </head>
 
 <body>
+	<div class="mobile-navigation">
+		<label for="toggler-id">
+			<svg mobile-navigation-burger width="33.000000" height="19.187500" viewBox="0 0 33 19.1875" fill="none"
+				xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<rect width="33.000000" height="3.837209" fill="#000000" fill-opacity="1.000000" />
+				<rect y="7.673828" width="33.000000" height="3.837209" fill="#000000" fill-opacity="1.000000" />
+				<rect y="15.349609" width="33.000000" height="3.837209" fill="#000000" fill-opacity="1.000000" />
+			</svg>
+		</label>
+
+		<input type="checkbox" id="toggler-id" class="mobile-navigation-toggler">
+
+		<nav class="mobile-navigation-menu" >
+			<ul class="mobile-navigation-list">
+				<li>
+					<a href="#home-id" class="mobile-navigation-link">Home</a>
+				</li>
+				<li>
+					<a href="#about-id" class="mobile-navigation-link">About</a>
+				</li>
+				<li>
+					<a href="#history-id" class="mobile-navigation-link">History</a>
+				</li>
+				<li>
+					<a href="#portfolio-id" class="mobile-navigation-link">Portfolio</a>
+				</li>
+				<li>
+					<a href="#contacts-id" class="mobile-navigation-link">Contacts</a>
+				</li>
+			</ul>
+
+			<label for="toggler-id" class="mobile-navigation-close">
+				<svg mobile-navigation-close width="22.873047" height="22.244141" viewBox="0 0 22.873 22.2441" fill="none"
+					xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<rect  x="2.687012" width="27.371525" height="3.800000"
+						transform="rotate(45 2.687012 0.000000)" fill="#828282" fill-opacity="1.000000" />
+					<rect  x="0.831055" y="19.556641" width="27.371525" height="3.800000"
+						transform="rotate(-45 0.831055 19.556641)" fill="#828282" fill-opacity="1.000000" />
+				</svg>
+
+			</label>
+		</nav>
+	</div>
+
 	<header class="header container">
 		<nav class="navigation">
 			<ul class="navigation__list">
@@ -29,7 +73,7 @@
 					<a href="#portfolio-id" class="navigation__link">Portfolio</a>
 				</li>
 				<li class="navigation__item">
-					<a href="#" class="navigation__link">Contacts</a>
+					<a href="#contacts" class="navigation__link">Contacts</a>
 				</li>
 			</ul>
 		</nav>
@@ -97,7 +141,7 @@
 		</section>
 	</main>
 
-	<footer class="footer">
+	<footer class="footer" id="contacts">
 		<div class="container">
 			<h1 class="footer__title">
 				Contacts
@@ -108,22 +152,22 @@
 				</a>
 			</div>
 			<div class="social-media">
-				<a href="" class="social-media__links">
+				<a href="#" class="social-media__links">
 					<svg class="social-icon">
 						<use href="assets/sprites.svg#youtube-icon"></use>
 					</svg>
 				</a>
-				<a href="" class="social-media__links">
+				<a href="#" class="social-media__links">
 					<svg class="social-icon">
 						<use href="assets/sprites.svg#linkedin-icon"></use>
 					</svg>
 				</a>
-				<a href="" class="social-media__links">
+				<a href="#" class="social-media__links">
 					<svg class="social-icon">
 						<use href="assets/sprites.svg#instagramm-icon"></use>
 					</svg>
 				</a>
-				<a href="" class="social-media__links">
+				<a href="#" class="social-media__links">
 					<svg class="social-icon">
 						<use href="assets/sprites.svg#facebook-icon"></use>
 					</svg>
